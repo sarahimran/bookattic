@@ -1,0 +1,15 @@
+<mat-toolbar 
+color = 'primary' 
+class='mat-elevation-z8'>
+
+    <button mat-button (click)="goToPage('')">Home</button>
+    <button mat-button (click)="goToPage('browsebooks')">Browse Books</button>
+    <button mat-button>Become a Seller</button>
+    <button mat-button>Contact Us</button>
+   
+        <button mat-icon-button aria-label="Example icon button with a home icon"  style="position: absolute; right: 0;" class="icon-display">
+            <mat-icon>shopping_cart</mat-icon>
+          </button>
+
+</mat-toolbar>
+<router-outlet></router-outlet>

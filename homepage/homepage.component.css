@@ -1,0 +1,130 @@
+
+.zoom { 
+    width:100%; 
+    height:300px; 
+} 
+img { 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+}
+.container {
+    position: relative;
+   
+
+  }
+  .centered {
+    position: absolute;
+    text-align: centre;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+      background-color: black;
+    background: -webkit-linear-gradient(90deg, rgba(1,0,15,1) 10%, rgba(90,9,121,1) 71%, rgb(105, 55, 5) 100%);
+     -webkit-background-clip: text;
+     background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 100%;
+  background-repeat: repeat;
+
+}
+.HowDoesAtticWork{
+    text-align: center;
+       font-size: 30px;
+    height: 380px;
+    color: white;
+    
+    
+} 
+    
+   
+
+.center { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }  
+.buycontent{
+    display:inline-block;
+    font-size: small;
+    max-width: 350px;
+    text-align: center;
+   margin-left: 120px;
+   margin-top: 20px;
+   background-color: peachpuff;
+   border-radius: 25px;
+   color: black;
+}
+.image{
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+}
+.sellcontent{
+    display: inline-block;
+    font-size: small;
+    max-width: 350px;
+    text-align: center;
+   margin-left: 120px;
+   margin-top: 20px;
+   background-color: peachpuff;
+   border-radius: 25px;
+   color: black;
+}
+
+.logincontent{
+    display: inline-block;
+    font-size: small;
+    max-width: 350px;
+    text-align: center;
+   margin-left: 20px;
+   margin-top: 20px;
+   background-color: peachpuff;
+   border-radius: 25px;
+   color: black;
+}
+
+.OurVisionContent{
+    margin-top: 20px;
+    display: block;
+    font-size: small;
+    max-width: 1000px;
+    text-align: center;
+    background-color: peachpuff;
+    border-radius: 25px;
+    color: black
+
+}
+
+.quoteImage{
+   width: 100%;
+   height: 100%;
+}
+
+
+.ourVisionCard{
+    text-align: center;
+    font-size: 30px;
+    height: 160px;
+    color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.test{
+  background-color: aqua;
+}
+.background{
+  background: rgb(1,0,15);
+  background: linear-gradient(90deg, rgba(1,0,15,1) 0%, rgba(90,9,121,1) 41%, rgba(221,118,15,1) 100%);
+  height: auto;
+  width: auto;
+padding-bottom: 10px;
+}
